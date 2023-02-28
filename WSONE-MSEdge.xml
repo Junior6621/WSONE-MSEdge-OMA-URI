@@ -1,0 +1,53 @@
+<Replace>
+  <CmdID>706041b2-7109-43cf-9713-ff753cad2ac9c</CmdID>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge~Startup/RestoreOnStartup</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<enabled/><data id="RestoreOnStartup" value="4"/>]]>
+    </Data>
+  </Item>
+    <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge~Startup/RestoreOnStartupURLs</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<enabled/><data id="RestoreOnStartupURLsDesc" value="1&#xF000;www.lenderscooperative.com"/>]]>
+    </Data>
+  </Item>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge/HideFirstRunExperience</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<enabled/>]]>
+    </Data>
+  </Item>
+   <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge~PasswordManager/PasswordManagerEnabled</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<disabled/>]]>
+    </Data>
+  </Item>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge~Extensions/ExtensionInstallBlocklist</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<enabled/> <data id="ExtensionInstallBlocklistDesc" value="1*"/>]]>
+    </Data>
+  </Item>
+  <Item>
+    <Target>
+      <LocURI>./Device/Vendor/MSFT/Policy/Config/MSEdge~Policy~microsoft_edge~Extensions/ExtensionInstallForcelist</LocURI>
+    </Target>
+    <Data>
+      <![CDATA[<enabled/> <data id="ExtensionInstallForcelistDesc" value="1&#xF000;nakcddgmfmjmdbfahkkiijejmmfkfipc;https://clients2.google.com/service/update2/crx"/>]]>
+    </Data>
+  </Item>
+</Replace>
+
+  
